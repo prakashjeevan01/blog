@@ -1,0 +1,41 @@
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navigation bar styles */
+    nav {
+      background-color: #033747;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      position: sticky;
+      z-index: 1000;
+      top: 0;
+    }
+
+    .logo {
+      font-size: 24px;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    /* Content styles */
+    .content-container {
+      padding: 20px;
+      text-align: center;
+    }
+
